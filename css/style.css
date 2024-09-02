@@ -1,0 +1,273 @@
+* {
+  font-family: heebo;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#header {
+  display: flex;
+  justify-content: end;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  padding-block: 20px;
+  gap: 20px;
+}
+.header a {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#about {
+  padding-block: 130px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text h1 {
+  font-size: 38px;
+  width: 380px;
+}
+.about-text p {
+  margin-block: 23px;
+  font-size: 16px;
+  width: 500px;
+}
+.about-text button {
+  width: 208px;
+  height: 47px;
+  background-color: #ff6464;
+  border-radius: 2px;
+  font-size: 18px;
+  color: #ffffff;
+}
+#post {
+  background-color: #edf7fa;
+  padding-block: 50px;
+}
+#post .container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.post-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+}
+.post-title h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.post-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-box {
+  width: 418px;
+  background-color: #fff;
+  padding: 30px 30px;
+  margin: 30px 90px;
+}
+.post-box h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.post-box h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 13px;
+}
+.post-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 13px;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.works-out {
+  display: flex-start;
+  font-size: 16px;
+  margin-block: 35px;
+}
+.works-out h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.work-text {
+  display: flex;
+}
+.work-text span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 20px;
+}
+.work-text h1 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.work-text h6 {
+  display: flex;
+  justify-content: center;
+  background: #142850;
+  width: 80px;
+  color: #edf7fa;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.work-text h5 {
+  color: #8695a4;
+  font-size: 20px;
+  font-weight: 400;
+}
+.work-text .an {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.work-text p {
+  width: 600px;
+}
+.works3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.work-text3 {
+  display: flex;
+}
+.work-text3 span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 20px;
+}
+.work-text3 h1 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.work-text3 h6 {
+  display: flex;
+  justify-content: center;
+  background: #142850;
+  width: 80px;
+  color: #edf7fa;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.work-text3 h5 {
+  color: #8695a4;
+  font-size: 20px;
+  font-weight: 400;
+}
+.work-text3 .an {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.work-text3 p {
+  width: 600px;
+}
+.works4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.work-text4 {
+  display: flex;
+}
+.work-text4 span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 20px;
+}
+.work-text4 h1 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.work-text4 h6 {
+  display: flex;
+  justify-content: center;
+  background: #142850;
+  width: 80px;
+  color: #edf7fa;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.work-text4 h5 {
+  color: #8695a4;
+  font-size: 20px;
+  font-weight: 400;
+}
+.work-text4 .an {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.work-text4 p {
+  width: 600px;
+}
+#works {
+  padding-block: 30px;
+}
+#works3 {
+  padding-block: 30px;
+}
+#works4 {
+  padding-block: 30px;
+}
+hr {
+  margin: 0 auto;
+  width: 90%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+.footer .icons {
+  color: #21243d;
+  font-weight: 300px;
+  height: 30px;
+  font-size: 30px;
+}
+.footer h5 {
+  color: #21243d;
+  width: 400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.footer .an {
+  margin-block: 25px;
+}
